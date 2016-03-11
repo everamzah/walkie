@@ -445,9 +445,9 @@ end)
 minetest.register_craft({
 	output = "walkie:talkie",
 	recipe = {
-		{"default:copper_ingot", "default:steel_ingot", "default:copper_ingot"},
-		{"default:steel_ingot", "default:diamond", "default:steel_ingot"},
-		{"default:copper_ingot", "default:steel_ingot", "default:copper_ingot"}
+		{"default:copper_ingot", "", "default:copper_ingot"},
+		{"", "default:diamond", ""},
+		{"default:copper_ingot", "", "default:copper_ingot"}
 	}
 })
 
