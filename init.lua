@@ -184,9 +184,7 @@ local function terminal_display(user, pos, input)
 		feedback = ""
 
 	elseif command == "quit" then
-		output = "There is no escape."
-
-		feedback = "Press [ESC] to exit."
+		return
 
 	else
 		output = "Unknown command. Type help for a list."
